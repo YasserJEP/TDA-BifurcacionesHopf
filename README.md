@@ -78,9 +78,9 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 │ ├── lorenz_embedding_opt.py
 │ └── bz_embedding_opt.py
 │
-└── resultados/
 ├── figures/
-└── excel/
+└── resultados/
+
 ```
 
 
