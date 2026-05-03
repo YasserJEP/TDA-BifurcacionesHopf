@@ -45,6 +45,13 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 | `pandas` | ≥1.2.0 | Exportación de resultados |
 | `scikit-learn` | ≥0.24.0 | FNN, NearestNeighbors |
 
+## Estructura de resultados
+| Carpeta | Contenido | Formato |
+|---------|-----------|---------|
+| `resultados/figures/` | Gráficas de análisis | PDF (600 dpi) |
+| `resultados/excel/` | Datos numéricos | .xlsx |
+
+
 ## Metodología
 
 1. **Generación de series temporales** – Integración numérica (RK4) de cada sistema
