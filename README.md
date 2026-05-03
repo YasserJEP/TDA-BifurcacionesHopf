@@ -54,31 +54,31 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 ## Estructura del repositorio
 ```flow
 ├── diagramas_persistencia/
-│ ├── hopf_normal_diagrams.py
-│ ├── lorenz_diagrams.py
-│ └── bz_diagrams.py
+│   ├── hopf_normal_diagramas.py
+│   ├── lorenz_diagramas.py
+│   └── bz_diagramas.py
 │
 ├── norma_L1/
-│ ├── hopf_betti_norm.py
-│ ├── lorenz_betti_norm.py
-│ └── bz_betti_norm.py
+│   ├── hopf_norma_betti.py
+│   ├── lorenz_norma_betti.py
+│   └── bz_norma_betti.py
 │
 ├── maxima_persistencia/
-│ ├── hopf_max_persistence.py
-│ ├── lorenz_max_persistence.py
-│ └── bz_max_persistence.py
+│   ├── hopf_max_persistencia.py
+│   ├── lorenz_max_persistencia.py
+│   └── bz_max_persistencia.py
 │
 ├── exponentes_lyapunov/
-│ ├── hopf_lyapunov.py
-│ ├── lorenz_lyapunov.py
-│ └── bz_lyapunov.py
+│   ├── hopf_lyapunov.py
+│   ├── lorenz_lyapunov.py
+│   └── bz_lyapunov.py
 │
-├── embedding_optimization/
-│ ├── hopf_embedding_opt.py
-│ ├── lorenz_embedding_opt.py
-│ └── bz_embedding_opt.py
+├── optimizacion_embedding/
+│   ├── hopf_optimizacion_embedding.py
+│   ├── lorenz_optimizacion_embedding.py
+│   └── bz_optimizacion_embedding.py
 │
-├── figures/
+├── figuras/
 └── resultados/
 
 ```
