@@ -81,14 +81,30 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 ├── figures/
 └── excel/
 
+Note over Root: hopf_bifurcation_tda/
+Root->diagramas_persistencia: hopf_normal_diagrams.py
+Root->diagramas_persistencia: lorenz_diagrams.py
+Root->diagramas_persistencia: bz_diagrams.py
 
+Root->norma_L1: hopf_betti_norm.py
+Root->norma_L1: lorenz_betti_norm.py
+Root->norma_L1: bz_betti_norm.py
 
-| `├── diagramas_persistencia/` | `├── hopf_normal_diagrams.py`<br>`├── lorenz_diagrams.py`<br>`└── bz_diagrams.py` |
-| `├── norma_L1/` | `├── hopf_betti_norm.py`<br>`├── lorenz_betti_norm.py`<br>`└── bz_betti_norm.py` |
-| `├── maxima_persistencia/` | `├── hopf_max_persistence.py`<br>`├── lorenz_max_persistence.py`<br>`└── bz_max_persistence.py` |
-| `├── exponentes_lyapunov/` | `├── hopf_lyapunov.py`<br>`├── lorenz_lyapunov.py`<br>`└── bz_lyapunov.py` |
-| `├── embedding_optimization/` | `├── hopf_embedding_opt.py`<br>`├── lorenz_embedding_opt.py`<br>`└── bz_embedding_opt.py` |
-| `└── resultados/` | `├── figures/`<br>`└── excel/` |
+Root->maxima_persistencia: hopf_max_persistence.py
+Root->maxima_persistencia: lorenz_max_persistence.py
+Root->maxima_persistencia: bz_max_persistence.py
+
+Root->exponentes_lyapunov: hopf_lyapunov.py
+Root->exponentes_lyapunov: lorenz_lyapunov.py
+Root->exponentes_lyapunov: bz_lyapunov.py
+
+Root->embedding_optimization: hopf_embedding_opt.py
+Root->embedding_optimization: lorenz_embedding_opt.py
+Root->embedding_optimization: bz_embedding_opt.py
+
+Root->resultados: figures/
+Root->resultados: excel/
+
 
 ## Requisitos
 
