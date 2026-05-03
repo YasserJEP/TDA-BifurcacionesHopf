@@ -47,3 +47,8 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 └── resultados/
 ├── figures/
 └── excel/
+
+## Requisitos
+
+```bash
+pip install gtda ripser teaspoon numpy matplotlib scipy pandas scikit-learn
