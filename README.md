@@ -24,15 +24,6 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 | Lorenz | 0.01 | 100 | 2000 | [6.74, 6.74, 22.74] |
 | BZ | 0.01 | 80 | 4000 | [2, 5.01] |
 
-## Scripts por categoría
-| Categoría | Hopf normal | Lorenz | BZ |
-|-----------|-------------|--------|-----|
-| Diagramas de persistencia | `hopf_normal_diagrams.py` | `lorenz_diagrams.py` | `bz_diagrams.py` |
-| Norma L₁ de Betti-1 | `hopf_betti_norm.py` | `lorenz_betti_norm.py` | `bz_betti_norm.py` |
-| Máxima persistencia | `hopf_max_persistence.py` | `lorenz_max_persistence.py` | `bz_max_persistence.py` |
-| Exponentes de Lyapunov | `hopf_lyapunov.py` | `lorenz_lyapunov.py` | `bz_lyapunov.py` |
-| Optimización de embedding | `hopf_embedding_opt.py` | `lorenz_embedding_opt.py` | `bz_embedding_opt.py` |
-
 ## Dependencias del proyecto
 | Librería | Versión | Uso |
 |----------|---------|-----|
@@ -89,6 +80,33 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 └── resultados/
 ├── figures/
 └── excel/
+
+| Nivel | Carpeta/Archivo |
+|-------|-----------------|
+| 1 | `├── diagramas_persistencia/` |
+| 2 | `│   ├── hopf_normal_diagrams.py` |
+| 2 | `│   ├── lorenz_diagrams.py` |
+| 2 | `│   └── bz_diagrams.py` |
+| 1 | `├── norma_L1/` |
+| 2 | `│   ├── hopf_betti_norm.py` |
+| 2 | `│   ├── lorenz_betti_norm.py` |
+| 2 | `│   └── bz_betti_norm.py` |
+| 1 | `├── maxima_persistencia/` |
+| 2 | `│   ├── hopf_max_persistence.py` |
+| 2 | `│   ├── lorenz_max_persistence.py` |
+| 2 | `│   └── bz_max_persistence.py` |
+| 1 | `├── exponentes_lyapunov/` |
+| 2 | `│   ├── hopf_lyapunov.py` |
+| 2 | `│   ├── lorenz_lyapunov.py` |
+| 2 | `│   └── bz_lyapunov.py` |
+| 1 | `├── embedding_optimization/` |
+| 2 | `│   ├── hopf_embedding_opt.py` |
+| 2 | `│   ├── lorenz_embedding_opt.py` |
+| 2 | `│   └── bz_embedding_opt.py` |
+| 1 | `└── resultados/` |
+| 2 | `    ├── figures/` |
+| 2 | `    └── excel/` |
+
 
 ## Requisitos
 
