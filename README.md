@@ -40,8 +40,8 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 ## Estructura de resultados
 | Carpeta | Contenido | Formato |
 |---------|-----------|---------|
-| `resultados/figures/` | Gráficas de análisis | PDF (600 dpi) |
-| `resultados/excel/` | Datos numéricos | .xlsx |
+| `Figuras/` | Gráficas de análisis | PDF (600 dpi) |
+| `Datos/` | Datos numéricos | .xlsx |
 
 
 ## Metodología
