@@ -1,6 +1,6 @@
-# Detección de Bifurcaciones de Hopf mediante Topological Data Analysis (TDA)
+# Detección de Bifurcaciones de Hopf mediante Análisis Topológico de Datos (TDA)
 
-Este repositorio explora la detección de bifurcaciones de Hopf en sistemas dinámicos mediante **Análisis Topológico de Datos (TDA)**. Se implementan técnicas como homología persistente, complejos de Vietoris–Rips, embedding de Takens y diagramas de persistencia para identificar cambios topológicos en series temporales.
+Este repositorio explora la detección de bifurcaciones de Hopf en sistemas dinámicos mediante **Análisis Topológico de Datos (TDA)**. Se implementan técnicas como embedding de Takens, homología persistente, complejos de Vietoris–Rips y diagramas de persistencia para identificar cambios topológicos en series temporales.
 
 ## Sistemas dinámicos analizados
 
