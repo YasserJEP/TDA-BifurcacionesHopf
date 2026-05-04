@@ -86,8 +86,8 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 │       └── correlacion_Pearson_Spearman.py
 │
 └── Teaspoon_modificado/
-    ├── autonomous_systems_flows_rk4.py
-    └── DynSysLib.py
+    ├── DynSysLib.py
+    └── autonomous_systems_flows_rk4.py
 ```
 
 
