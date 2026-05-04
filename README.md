@@ -53,35 +53,36 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 
 ## Estructura del repositorio
 ```flow
+├── Datos/
+├── Figuras/
 ├── Notebooks/
-│   ├── diagramas_persistencia/
-│   │   ├── hopf_normal_diagramas_persistencia.py
-│   │   ├── lorenz_diagramas_persistencia.py
-│   │   └── bz_diagramas_persistencia.py
-│   │
-│   ├── norma_L1/
-│   │   ├── hopf_normal_norma_L1_betti.py
-│   │   ├── lorenz_norma_L1_betti.py
-│   │   └── bz_norma_L1_betti.py
-│   │
-│   ├── maxima_persistencia/
-│   │   ├── hopf_normal_max_persistencia.py
-│   │   ├── lorenz_max_persistencia.py
-│   │   └── bz_max_persistencia.py
-│   │
-│   ├── exponentes_lyapunov/
-│   │   ├── hopf_normal_lyapunov.py
-│   │   ├── lorenz_lyapunov.py
-│   │   └── bz_lyapunov.py
-│   │
-│   └── optimizacion_embedding/
-│       ├── hopf_normal_parámetros_optimos_embedding.py
-│       ├── lorenz_parámetros_optimos_embedding.py
-│       └── bz_parámetros_optimos_embedding.py
-│
-├── figuras/
-└── resultados/
-
+    ├── diagramas_persistencia/
+    │   ├── hopf_normal_diagramas_persistencia.py
+    │   ├── lorenz_diagramas_persistencia.py
+    │   └── bz_diagramas_persistencia.py
+    │
+    ├── norma_L1/
+    │   ├── hopf_normal_norma_L1_betti.py
+    │   ├── lorenz_norma_L1_betti.py
+    │   └── bz_norma_L1_betti.py
+    │
+    ├── maxima_persistencia/
+    │   ├── hopf_normal_max_persistencia.py
+    │   ├── lorenz_max_persistencia.py
+    │   └── bz_max_persistencia.py
+    │
+    ├── exponentes_lyapunov/
+    │   ├── hopf_normal_lyapunov.py
+    │   ├── lorenz_lyapunov.py
+    │   └── bz_lyapunov.py
+    │
+    ├── optimizacion_embedding/
+    │   ├── hopf_normal_parámetros_optimos_embedding.py
+    │   ├── lorenz_parámetros_optimos_embedding.py
+    │   ├── bz_parámetros_optimos_embedding.py
+    │
+    └── ├── análisis_correlación/
+        └── correlación_Perason_Spearman.py 
 ```
 
 
