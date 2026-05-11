@@ -82,8 +82,11 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 │   │   ├── lorenz_parametros_optimos_embedding.py
 │   │   └── bz_parametros_optimos_embedding.py
 │   │
-│   └── analisis_correlacion/
-│       └── correlacion_Pearson_Spearman.py
+│   ├── analisis_correlacion/
+│   |   └── correlacion_Pearson_Spearman.py
+|   |
+|   └── estimador_topológico/
+|       └── estimador_parámetro_crítico.py   
 │
 └── Teaspoon_modificado/
     ├── DynSysLib.py
