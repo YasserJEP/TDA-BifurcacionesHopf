@@ -15,7 +15,7 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 |---------|-------------|---------------|--------|
 | Hopf normal | 26 | 2 | 2 |
 | Lorenz | 16 | 2 | 2 |
-| Belousov-Zhabotinsky | 57 | 2 | 5 |
+| Belousov-Zhabotinsky | 58 | 2 | 5 |
 
 ## Parámetros por defecto de simulación
 | Sistema | dt | T | SampleSize | Condiciones iniciales |
