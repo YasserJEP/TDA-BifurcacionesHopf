@@ -35,7 +35,7 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 | `matplotlib` | ≥ 3.3.0 | Visualización |
 | `scipy` | ≥ 1.7.0 | Integración de EDOs, correlación (Pearson, Spearman) |
 | `pandas` | ≥ 1.2.0 | Exportación de resultados (Excel, CSV) |
-| `scikit-learn` | ≥ 0.24.0 | FNN, NearestNeighbors |
+| `scikit-learn` | ≥ 0.24.0 | FNN ( NearestNeighbors) |
 
 ## Estructura de resultados
 | Carpeta | Contenido | Formato |
