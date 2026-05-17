@@ -18,11 +18,11 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 | Belousov-Zhabotinsky | 58 | 2 | 5 |
 
 ## Parámetros por defecto de simulación
-| Sistema | dt | T | SampleSize | Condiciones iniciales |
-|---------|-----|-----|------------|----------------------|
-| Hopf normal | 0.01 | 50-100 | 2000 | 0, 1.01 |
-| Lorenz | 0.01 | 100 | 2000 | 6.74, 6.74, 22.74 |
-| BZ | 0.01 | 80 | 4000 | 2, 7 |
+| Sistema | dt | L | fs | SampleSize | Condiciones iniciales |
+|---------|-----|-----|----|---------|----------------------|
+| Hopf normal | 0.01 | 50 | 100 1 2000 | 0, 1.01 |
+| Lorenz | 0.01 | 100 | 130 | 2000 | 6.74, 6.74, 22.74 |
+| BZ | 0.01 | 80 | 90 | 4000 | 2, 7 |
 
 ## Dependencias del proyecto
 
@@ -33,7 +33,7 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 | `teaspoon` | ≥ 1.0.0 | Generación de sistemas dinámicos |
 | `numpy` | ≥ 1.20.0 | Operaciones numéricas |
 | `matplotlib` | ≥ 3.3.0 | Visualización |
-| `scipy` | ≥ 1.7.0 | Integración de EDOs, correlación (Pearson, Spearman) |
+| `scipy` | ≥ 1.7.0 | Correlación (Pearson, Spearman), suavizado gaussiano |
 | `pandas` | ≥ 1.2.0 | Exportación de resultados (Excel, CSV) |
 | `scikit-learn` | ≥ 0.24.0 | FNN ( NearestNeighbors) |
 
