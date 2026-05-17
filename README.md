@@ -20,7 +20,7 @@ Este repositorio explora la detección de bifurcaciones de Hopf en sistemas din�
 ## Parámetros por defecto de simulación
 | Sistema | dt | L | fs | SampleSize | Condiciones iniciales |
 |---------|-----|-----|----|---------|----------------------|
-| Hopf normal | 0.01 | 50 | 100 1 2000 | 0, 1.01 |
+| Hopf normal | 0.01 | 50 | 100 | 2000 | 0, 1.01 |
 | Lorenz | 0.01 | 100 | 130 | 2000 | 6.74, 6.74, 22.74 |
 | BZ | 0.01 | 80 | 90 | 4000 | 2, 7 |
 
